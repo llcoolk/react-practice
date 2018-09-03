@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "./Header.css";
 
 const Header = props => (
   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -20,7 +21,7 @@ const Header = props => (
       </button>
 
       <div className="collapse navbar-collapse" id="navbarsExample07">
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <NavLink exact className="nav-link" to="/">
               Home
